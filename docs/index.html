@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Sparse, Noisy Ride Match Dataset</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #2196F3;
+            padding-bottom: 10px;
+        }
+        .ride-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .ride-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .ride-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .ride-card a {
+            color: #2196F3;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        .ride-card a:hover {
+            text-decoration: underline;
+        }
+        .ride-date {
+            color: #666;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .stats {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Sparse, Noisy Ride Match Dataset</h1>
+    <div class="stats">
+        <p><strong>Total Rides:</strong> 49</p>
+        <p>Compare ground truth GPS tracks (blue) with esel.ac tracked routes (red)</p>
+    </div>
+    <div class="ride-grid">
+        <div class="ride-card">
+            <a href="01-Oct-2025-1141_map.html" target="_blank">01-Oct-2025-1141</a>
+        </div>
+        <div class="ride-card">
+            <a href="01-Oct-2025-1606_map.html" target="_blank">01-Oct-2025-1606</a>
+        </div>
+        <div class="ride-card">
+            <a href="03-Nov-2025-1057_map.html" target="_blank">03-Nov-2025-1057</a>
+        </div>
+        <div class="ride-card">
+            <a href="03-Oct-2025-1237_map.html" target="_blank">03-Oct-2025-1237</a>
+        </div>
+        <div class="ride-card">
+            <a href="07-Oct-2025-1519_map.html" target="_blank">07-Oct-2025-1519</a>
+        </div>
+        <div class="ride-card">
+            <a href="08-Oct-2025-1253_map.html" target="_blank">08-Oct-2025-1253</a>
+        </div>
+        <div class="ride-card">
+            <a href="08-Oct-2025-1840_map.html" target="_blank">08-Oct-2025-1840</a>
+        </div>
+        <div class="ride-card">
+            <a href="08-Oct-2025-2142_map.html" target="_blank">08-Oct-2025-2142</a>
+        </div>
+        <div class="ride-card">
+            <a href="09-Oct-2025-1132_map.html" target="_blank">09-Oct-2025-1132</a>
+        </div>
+        <div class="ride-card">
+            <a href="09-Oct-2025-1546_map.html" target="_blank">09-Oct-2025-1546</a>
+        </div>
+        <div class="ride-card">
+            <a href="09-Oct-2025-1651_map.html" target="_blank">09-Oct-2025-1651</a>
+        </div>
+        <div class="ride-card">
+            <a href="09-Oct-2025-1706_map.html" target="_blank">09-Oct-2025-1706</a>
+        </div>
+        <div class="ride-card">
+            <a href="10-Oct-2025-0929_map.html" target="_blank">10-Oct-2025-0929</a>
+        </div>
+        <div class="ride-card">
+            <a href="10-Oct-2025-1831_map.html" target="_blank">10-Oct-2025-1831</a>
+        </div>
+        <div class="ride-card">
+            <a href="10-Oct-2025-1957_map.html" target="_blank">10-Oct-2025-1957</a>
+        </div>
+        <div class="ride-card">
+            <a href="11-Oct-2025-0036_map.html" target="_blank">11-Oct-2025-0036</a>
+        </div>
+        <div class="ride-card">
+            <a href="11-Oct-2025-1300_map.html" target="_blank">11-Oct-2025-1300</a>
+        </div>
+        <div class="ride-card">
+            <a href="13-Oct-2025-1625_map.html" target="_blank">13-Oct-2025-1625</a>
+        </div>
+        <div class="ride-card">
+            <a href="13-Oct-2025-1815_map.html" target="_blank">13-Oct-2025-1815</a>
+        </div>
+        <div class="ride-card">
+            <a href="14-Oct-2025-1020_map.html" target="_blank">14-Oct-2025-1020</a>
+        </div>
+        <div class="ride-card">
+            <a href="14-Oct-2025-2024_map.html" target="_blank">14-Oct-2025-2024</a>
+        </div>
+        <div class="ride-card">
+            <a href="23-Sep-2025-1122_map.html" target="_blank">23-Sep-2025-1122</a>
+        </div>
+        <div class="ride-card">
+            <a href="23-Sep-2025-1246_map.html" target="_blank">23-Sep-2025-1246</a>
+        </div>
+        <div class="ride-card">
+            <a href="23-Sep-2025-1317_map.html" target="_blank">23-Sep-2025-1317</a>
+        </div>
+        <div class="ride-card">
+            <a href="23-Sep-2025-1752_map.html" target="_blank">23-Sep-2025-1752</a>
+        </div>
+        <div class="ride-card">
+            <a href="23-Sep-2025-2214_map.html" target="_blank">23-Sep-2025-2214</a>
+        </div>
+        <div class="ride-card">
+            <a href="24-Oct-2025-1330_map.html" target="_blank">24-Oct-2025-1330</a>
+        </div>
+        <div class="ride-card">
+            <a href="24-Sep-2025-1127_map.html" target="_blank">24-Sep-2025-1127</a>
+        </div>
+        <div class="ride-card">
+            <a href="24-Sep-2025-1204_map.html" target="_blank">24-Sep-2025-1204</a>
+        </div>
+        <div class="ride-card">
+            <a href="25-Sep-2025-1427_map.html" target="_blank">25-Sep-2025-1427</a>
+        </div>
+        <div class="ride-card">
+            <a href="25-Sep-2025-1446_map.html" target="_blank">25-Sep-2025-1446</a>
+        </div>
+        <div class="ride-card">
+            <a href="26-Sep-2025-1252_map.html" target="_blank">26-Sep-2025-1252</a>
+        </div>
+        <div class="ride-card">
+            <a href="26-Sep-2025-1438_map.html" target="_blank">26-Sep-2025-1438</a>
+        </div>
+        <div class="ride-card">
+            <a href="26-Sep-2025-1502_map.html" target="_blank">26-Sep-2025-1502</a>
+        </div>
+        <div class="ride-card">
+            <a href="26-Sep-2025-1534_map.html" target="_blank">26-Sep-2025-1534</a>
+        </div>
+        <div class="ride-card">
+            <a href="26-Sep-2025-2028_map.html" target="_blank">26-Sep-2025-2028</a>
+        </div>
+        <div class="ride-card">
+            <a href="26-Sep-2025-2343_map.html" target="_blank">26-Sep-2025-2343</a>
+        </div>
+        <div class="ride-card">
+            <a href="27-Sep-2025-1919_map.html" target="_blank">27-Sep-2025-1919</a>
+        </div>
+        <div class="ride-card">
+            <a href="27-Sep-2025-1937_map.html" target="_blank">27-Sep-2025-1937</a>
+        </div>
+        <div class="ride-card">
+            <a href="28-Sep-2025-1240_map.html" target="_blank">28-Sep-2025-1240</a>
+        </div>
+        <div class="ride-card">
+            <a href="29-Oct-2025-1124_map.html" target="_blank">29-Oct-2025-1124</a>
+        </div>
+        <div class="ride-card">
+            <a href="29-Oct-2025-2041_map.html" target="_blank">29-Oct-2025-2041</a>
+        </div>
+        <div class="ride-card">
+            <a href="29-Sep-2025-1126_map.html" target="_blank">29-Sep-2025-1126</a>
+        </div>
+        <div class="ride-card">
+            <a href="29-Sep-2025-1432_map.html" target="_blank">29-Sep-2025-1432</a>
+        </div>
+        <div class="ride-card">
+            <a href="29-Sep-2025-2135_map.html" target="_blank">29-Sep-2025-2135</a>
+        </div>
+        <div class="ride-card">
+            <a href="30-Oct-2025-1127_map.html" target="_blank">30-Oct-2025-1127</a>
+        </div>
+        <div class="ride-card">
+            <a href="30-Sep-2025-1126_map.html" target="_blank">30-Sep-2025-1126</a>
+        </div>
+        <div class="ride-card">
+            <a href="30-Sep-2025-1237_map.html" target="_blank">30-Sep-2025-1237</a>
+        </div>
+        <div class="ride-card">
+            <a href="31-Oct-2025-2014_map.html" target="_blank">31-Oct-2025-2014</a>
+        </div>
+    </div>
+    <footer style="margin-top: 40px; text-align: center; color: #666; font-size: 14px;">
+        <p>Generated on 2026-01-03 21:09:28</p>
+        <p>Raw data licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" style="color: #2196F3; text-decoration: none;">CC-BY-NC-SA 4.0</a> | <a href="https://github.com/Empty2k12/sparse-noisy-ride-match-dataset" target="_blank" style="color: #2196F3; text-decoration: none;">Repository</a></p>
+    </footer>
+</body>
+</html>

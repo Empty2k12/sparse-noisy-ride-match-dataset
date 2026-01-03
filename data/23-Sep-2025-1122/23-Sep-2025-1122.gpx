@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Open GPX Tracker for iOS">
+	<trk>
+		<trkseg>
+			<trkpt lat="50.77893683691581" lon="6.0657290183064205">
+				<ele>209.86147689819336</ele>
+				<time>2025-09-23T09:19:33Z</time>
+			</trkpt>
+			<trkpt lat="50.7789156726103" lon="6.065724408259676">
+				<ele>210.6658592224121</ele>
+				<time>2025-09-23T09:19:35Z</time>
+			</trkpt>
+			<trkpt lat="50.77890368648877" lon="6.065720049670027">
+				<ele>213.7187156677246</ele>
+				<time>2025-09-23T09:19:39Z</time>
+			</trkpt>
+			<trkpt lat="50.77887937896957" lon="6.065738657495068">
+				<ele>213.79897689819336</ele>
+				<time>2025-09-23T09:19:41Z</time>
+			</trkpt>
+			<trkpt lat="50.7788572507452" lon="6.065758438786553">
+				<ele>214.1921043395996</ele>
+				<time>2025-09-23T09:19:42Z</time>
+			</trkpt>
+			<trkpt lat="50.77883273367842" lon="6.065783752134131">
+				<ele>214.6501121520996</ele>
+				<time>2025-09-23T09:19:43Z</time>
+			</trkpt>
+			<trkpt lat="50.778811262633425" lon="6.065810180600141">
+				<ele>214.65011293720454</ele>
+				<time>2025-09-23T09:19:44Z</time>
+			</trkpt>
+			<trkpt lat="50.77879110217212" lon="6.065838580918404">
+				<ele>216.6394928181544</ele>
+				<time>2025-09-23T09:19:45Z</time>
+			</trkpt>
+			<trkpt lat="50.77796995056671" lon="6.061046575738871">
+				<ele>221.97188651468605</ele>
+				<time>2025-09-23T09:22:03Z</time>
+			</trkpt>
+			<trkpt lat="50.77797889103826" lon="6.061005199465231">
+				<ele>221.96015022229403</ele>
+				<time>2025-09-23T09:22:05Z</time>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>
