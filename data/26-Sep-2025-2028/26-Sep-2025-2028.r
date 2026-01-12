@@ -15,8 +15,6 @@ library(sf)
 library(dplyr)
 library(tidyr)
 
-register_stadiamaps(key = "51ae3640-f282-4545-ad27-43102aa37856", write = FALSE)
-
 gpx_file <- "26-Sep-2025-2028.gpx"
 gpx_parsed <- htmlTreeParse(file = gpx_file, 
                             useInternalNodes = TRUE)
